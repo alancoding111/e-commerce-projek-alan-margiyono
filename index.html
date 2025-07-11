@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alannn Coffe - Belanja Mudah & Aman</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h1>Alannn store</h1>
+                </div>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link active" data-page="home">Beranda</a></li>
+                    <li><a href="#" class="nav-link" data-page="products">Produk</a></li>
+                    <li><a href="#" class="nav-link" data-page="categories">Kategori</a></li>
+                    <li><a href="#" class="nav-link" data-page="about">Tentang Kami</a></li>
+                    <li><a href="#" class="nav-link" data-page="contact">Kontak</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div id="home-page" class="page-content">
+            <h2 class="page-title">Produk Terbaru</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="kopi 7.jpeg" alt="ice long black coffe">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">ice long black coffe</h3>
+                        <p class="product-desc">Kopi Ice Long Black adalah minuman kopi dingin yang kuat, dibuat dengan menuangkan dua shot espresso di atas es batu dan air dingin</p>
+                        <div class="product-price">Rp 20.000</div>
+                        <div class="product-actions">
+                           <a href="https://wa.wizard.id/905bac" class="fas fa-shopping-cart btn btn-primary">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="kopi 2.jpg" alt="coffe latte">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">coffe latte</h3>
+                        <p class="product-desc">Kopi Latte adalah minuman kopi lembut yang terbuat dari satu atau dua shot espresso, dicampur dengan susu kukus yang sangat banyak dan sedikit busa susu tipis di atasnya</p>
+                        <div class="product-price">Rp 30.000</div>
+                        <div class="product-actions">
+                            <a href="https://wa.wizard.id/905bac" class="fas fa-shopping-cart btn btn-primary">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="kopi 3.jpg" alt="cappuccino ">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">cappuccino</h3>
+                        <p class="product-desc">kopi cappucino adalah minuman kopi yang terdiri dari satu atau dua shot espresso kuat, dicampur dengan susu</p>
+                        <div class="product-price">Rp 25.000</div>
+                        <div class="product-actions">
+                            <a href="https://wa.wizard.id/905bac" class="fas fa-shopping-cart btn btn-primary">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="product-card">
+                    <div class="product-image">
+                        <img src="kopi 1.jpg" alt="hot long black coffe">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">hot long black coffe</h3>
+                        <p class="product-desc">Kopi Hot Long Black adalah minuman kopi klasik yang menawarkan esensi murni dari kopi espresso dalam bentuk yang lebih panjang dan kaya rasa</p>
+                        <div class="product-price">Rp 20.000</div>
+                        <div class="product-actions">
+                            <a href="https://wa.wizard.id/905bac" class="fas fa-shopping-cart btn btn-primary">buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="about-section">
+                    <h2 class="page-title">Tentang Kami</h2>
+                    <div class="about-content">
+                        <div class="about-image">
+                            <i class="fas fa-store" style="font-size: 5rem; color: #ddd;"></i>
+                        </div>
+                        <div class="about-text">
+                            <h3>Toko Online Terpercaya Sejak 2010</h3>
+                            <p>Kami adalah toko online terpercaya yang menyediakan berbagai produk berkualitas dengan harga terbaik. Dengan lebih dari 10 tahun pengalaman, kami telah melayani jutaan pelanggan di seluruh Indonesia.</p>
+                            <p>Kami berkomitmen untuk memberikan pengalaman belanja online yang aman, nyaman, dan menyenangkan bagi semua pelanggan kami.</p>
+                            <a href="#" class="btn btn-primary" id="about-link">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="products-page" class="page-content hidden">
+            <a href="#" class="back-btn"><i class="fas fa-arrow-left"></i> Kembali</a>
+            <h2 class="page-title">Semua Produk</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="kopi 5.jpg" alt="mactha latte">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">matcha latte</h3>
+                        <p class="product-desc">Matcha Latte adalah minuman kekinian yang memadukan bubuk teh hijau matcha berkualitas tinggi dengan susu hangat atau dingin yang dikukus/disiapkan, menghasilkan minuman yang lembut, kaya rasa umami teh, dan seringkali sedikit manis.</p>
+                        <div class="product-price">Rp 30.000</div>
+                        <div class="product-actions">
+                           <a href="https://wa.wizard.id/905bac" class="fas fa-shopping-cart btn btn-primary">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="kopi 7.jpeg" alt="ice long black coffe">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">ice long black coffe</h3>
+                        <p class="product-desc">Kopi Ice Long Black adalah minuman kopi dingin yang kuat, dibuat dengan menuangkan dua shot espresso di atas es batu dan air dingin</p>
+                        <div class="product-price">Rp 20.000</div>
+                        <div class="product-actions">
+                           <a href="https://wa.wizard.id/905bac" class="fas fa-shopping-cart btn btn-primary">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="kopi 2.jpg" alt="coffe latte">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">coffe latte</h3>
+                        <p class="product-desc">Kopi Latte adalah minuman kopi lembut yang terbuat dari satu atau dua shot espresso, dicampur dengan susu kukus yang sangat banyak dan sedikit busa susu tipis di atasnya</p>
+                        <div class="product-price">Rp 30.000</div>
+                        <div class="product-actions">
+                            <a href="https://wa.wizard.id/905bac" class="fas fa-shopping-cart btn btn-primary">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="kopi 3.jpg" alt="cappuccino ">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">cappuccino</h3>
+                        <p class="product-desc">kopi cappucino adalah minuman kopi yang terdiri dari satu atau dua shot espresso kuat, dicampur dengan susu</p>
+                        <div class="product-price">Rp 25.000</div>
+                        <div class="product-actions">
+                            <a href="https://wa.wizard.id/905bac" class="fas fa-shopping-cart btn btn-primary">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="kopi 1.jpg" alt="hot long black coffe">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">hot long black coffe</h3>
+                        <p class="product-desc">Kopi Hot Long Black adalah minuman kopi klasik yang menawarkan esensi murni dari kopi espresso dalam bentuk yang lebih panjang dan kaya rasa</p>
+                        <div class="product-price">Rp 20.000</div>
+                        <div class="product-actions">
+                            <a href="https://wa.wizard.id/905bac" class="fas fa-shopping-cart btn btn-primary">buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="kopi 4.jpg" alt="Es Kopi Susu Gula Aren">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Es Kopi Susu Gula Aren</h3>
+                        <p class="product-desc">Es Kopi Susu Gula Aren adalah minuman kopi kekinian yang populer, memadukan espresso atau kopi hitam dengan susu segar dan pemanis alami dari gula aren.</p>
+                        <div class="product-price">Rp 25.000</div>
+                        <div class="product-actions">
+                            <a href="https://wa.wizard.id/905bac" class="fas fa-shopping-cart btn btn-primary">buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="categories-page" class="page-content hidden">
+            <a href="#" class="back-btn"><i class="fas fa-arrow-left"></i> Kembali</a>
+            <h2 class="page-title">Telusuri Kategori</h2>
+            <div class="categories">
+                <div class="category-card">
+                    <i class="fas fa-mug-hot category-icon"></i>
+                    <h3 class="category-title">Kopi Panas</h3>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-ice-cream category-icon"></i>
+                    <h3 class="category-title">Kopi Dingin</h3>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-leaf category-icon"></i>
+                    <h3 class="category-title">Non Kopi</h3>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-cookie-bite category-icon"></i>
+                    <h3 class="category-title">Camilan</h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-page" class="page-content hidden">
+            <a href="#" class="back-btn"><i class="fas fa-arrow-left"></i> Kembali</a>
+            <div class="about-section">
+                <h2 class="page-title">Tentang Alannn Coffe</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <i class="fas fa-coffee" style="font-size: 5rem; color: #ddd;"></i>
+                    </div>
+                    <div class="about-text">
+                        <h3>Dedikasi untuk Kualitas Sejak 2010</h3>
+                        <p>Alannn Coffe didirikan pada tahun 2010 dengan visi untuk menyajikan pengalaman minum kopi terbaik bagi para penikmat kopi. Kami percaya bahwa setiap cangkir kopi adalah sebuah cerita, dan kami berdedikasi untuk menciptakan cerita yang tak terlupakan.</p>
+                        <p>Kami hanya menggunakan biji kopi pilihan dari petani lokal terbaik, yang diolah dengan teliti untuk mempertahankan aroma dan rasa alaminya. Dari proses pemetikan hingga penyeduhan, setiap langkah dilakukan dengan penuh cinta dan keahlian.</p>
+                        <p>Selain kopi, kami juga menawarkan berbagai pilihan minuman non-kopi dan camilan lezat yang sempurna untuk menemani waktu santai Anda. Kunjungi kami dan rasakan perbedaannya!</p>
+                        <p>Terima kasih telah memilih Alannn Coffe sebagai destinasi kopi Anda. Kami berharap dapat melayani Anda dengan sepenuh hati.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact-page" class="page-content hidden">
+            <a href="#" class="back-btn"><i class="fas fa-arrow-left"></i> Kembali</a>
+            <h2 class="page-title">Hubungi Kami</h2>
+            <div class="contact-section">
+                <p>Ada pertanyaan atau ingin tahu lebih banyak? Jangan ragu untuk menghubungi kami melalui informasi di bawah ini:</p>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Alamat: Jl. Contoh Raya No. 123, Kota Fiktif, Indonesia</li>
+                    <li><i class="fas fa-phone"></i> Telepon: (021) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> Email: info@alannncoffe.com</li>
+                    <li><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.wizard.id/905bac" target="_blank">+62 812-3456-7890</a></li>
+                </ul>
+                <p>Kami siap melayani Anda dari Senin hingga Jumat, pukul 09.00 - 17.00 WIB.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Alannn Coffe</h3>
+                    <p>Menyajikan kopi terbaik dengan cinta dan dedikasi.</p>
+                    <p>Pengalaman rasa yang tak terlupakan.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Link Cepat</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-page="home">Beranda</a></li>
+                        <li><a href="#" data-page="products">Produk</a></li>
+                        <li><a href="#" data-page="categories">Kategori</a></li>
+                        <li><a href="#" data-page="about">Tentang Kami</a></li>
+                        <li><a href="#" data-page="contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Ikuti Kami</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Alannn Coffe. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
